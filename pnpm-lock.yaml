@@ -54,7 +54,7 @@ devDependencies:
     version: 7.14.5(@babel/core@7.14.5)
   '@nx/cypress':
     specifier: 17.1.2
-    version: 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.0.0)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2)
+    version: 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.7.1)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2)
   '@nx/devkit':
     specifier: 17.1.2
     version: 17.1.2(nx@17.1.2)
@@ -140,8 +140,8 @@ devDependencies:
     specifier: ^6.4.0
     version: 6.4.0(webpack@5.75.0)
   cypress:
-    specifier: ^13.0.0
-    version: 13.0.0
+    specifier: ^13.7.1
+    version: 13.7.1
   dotenv:
     specifier: 10.0.0
     version: 10.0.0
@@ -2626,10 +2626,10 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@nrwl/cypress@17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.0.0)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2):
+  /@nrwl/cypress@17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.7.1)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2):
     resolution: {integrity: sha512-urFTPQ81ROk56ktkwp3CU7MsIA1zFEYJC4nqrrJxGQm/4GcJ4JvRzjSNmcP6nApaO34in+nwskECBMWs2+6ZPQ==}
     dependencies:
-      '@nx/cypress': 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.0.0)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2)
+      '@nx/cypress': 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.7.1)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2)
     transitivePeerDependencies:
       - '@babel/traverse'
       - '@swc-node/register'
@@ -2819,7 +2819,7 @@ packages:
       - debug
     dev: true
 
-  /@nx/cypress@17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.0.0)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2):
+  /@nx/cypress@17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.7.1)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2):
     resolution: {integrity: sha512-5UoGGTPPsckeFTyu79DjmatAb4npHCGYgcHDbebRZDqifB99LRTKa/ZxcWNFdUiwZp4Buig5QM5MnhkjyjYpZg==}
     peerDependencies:
       cypress: '>= 3 < 14'
@@ -2827,12 +2827,12 @@ packages:
       cypress:
         optional: true
     dependencies:
-      '@nrwl/cypress': 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.0.0)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2)
+      '@nrwl/cypress': 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(cypress@13.7.1)(eslint@8.46.0)(nx@17.1.2)(typescript@5.2.2)
       '@nx/devkit': 17.1.2(nx@17.1.2)
       '@nx/eslint': 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(eslint@8.46.0)(nx@17.1.2)
       '@nx/js': 17.1.2(@swc-node/register@1.6.7)(@swc/core@1.3.96)(@types/node@18.14.2)(nx@17.1.2)(typescript@5.2.2)
       '@phenomnomnominal/tsquery': 5.0.1(typescript@5.2.2)
-      cypress: 13.0.0
+      cypress: 13.7.1
       detect-port: 1.5.1
       semver: 7.5.3
       tslib: 2.3.0
@@ -4021,10 +4021,6 @@ packages:
     resolution: {integrity: sha512-meK88cx/sTalPSLSoCzkiUB4VPIFHmxtXm5FaaqRDqBX2i/Sy8bJ4odsan0b20RBjPh06dAQ+OTTdnyQyhJZyQ==}
     dependencies:
       '@types/node': 18.14.2
-    dev: true
-
-  /@types/node@16.18.61:
-    resolution: {integrity: sha512-k0N7BqGhJoJzdh6MuQg1V1ragJiXTh8VUBAZTWjJ9cUq23SG0F0xavOwZbhiP4J3y20xd6jxKx+xNUhkMAi76Q==}
     dev: true
 
   /@types/node@18.14.2:
@@ -6237,15 +6233,14 @@ packages:
     resolution: {integrity: sha512-0sVXIohTfLqVIW3kb/0n6IiWF3Ifj5nm2XaSrLq2DI6fKIGa2fYAZdk917rUneaeLVpYfFcyXE2ft0fe3remsA==}
     dev: true
 
-  /cypress@13.0.0:
-    resolution: {integrity: sha512-nWHU5dUxP2Wm/zrMd8SWTTl706aJex/l+H4vi/tbu2SWUr17BUcd/sIYeqyxeoSPW1JFV2pT1pf4JEImH/POMg==}
+  /cypress@13.7.1:
+    resolution: {integrity: sha512-4u/rpFNxOFCoFX/Z5h+uwlkBO4mWzAjveURi3vqdSu56HPvVdyGTxGw4XKGWt399Y1JwIn9E1L9uMXQpc0o55w==}
     engines: {node: ^16.0.0 || ^18.0.0 || >=20.0.0}
     hasBin: true
     requiresBuild: true
     dependencies:
       '@cypress/request': 3.0.1
       '@cypress/xvfb': 1.2.4(supports-color@8.1.1)
-      '@types/node': 16.18.61
       '@types/sinonjs__fake-timers': 8.1.1
       '@types/sizzle': 2.3.6
       arch: 2.2.0
